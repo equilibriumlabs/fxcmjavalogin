@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'fxcmjavalogin.Main'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile files('lib/fxcm-api.jar')
+    compile files('lib/fxmsg.jar')
+    compile group: 'commons-logging', name: 'commons-logging', version: '1.2'
+}

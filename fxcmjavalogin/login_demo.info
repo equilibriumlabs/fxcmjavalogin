@@ -1,0 +1,7 @@
+#Basic Properties File to store fxcm login information
+
+username= <user_account_id> #Ex.1234578
+password=<password>
+server=Demo #It can be Demo or Real
+host=http://www.fxcorporate.com/Hosts.jsp
+
